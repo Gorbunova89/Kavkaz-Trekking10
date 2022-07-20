@@ -1,5 +1,20 @@
+body {
+    background-color: silver;
+}
 a {
 
+}
+
+#one-section {
+    background-color: url(background/DSC05794.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+}
+
+.one-container{
+ background-color: #fff;
 }
 
 .navbar-nav .nav-link {
@@ -7,8 +22,9 @@ a {
 }
 
 .navbar-nav .nav-link:hover {
-    font-weight: 500;
-    font-size: 18px;
+    /* font-weight: 500;
+    font-size: 18px; */
+    background-color: silver;
 }
 
 footer {
@@ -22,3 +38,4 @@ footer {
 i {
     color: #fff;
 }
+
